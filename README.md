@@ -1,1 +1,2 @@
-# -Electiondecentralized
+# -Election decentralized application (DAPP) on the Ethereum Network
+Developed a Decentralized Voting Application (DApp) on the Ethereum Network. Throughout the project, I gained hands-on experience in utilizing blockchain technology, Smart Contracts, and Ethereum components to build a secure and transparent online voting system. This internship has equipped me with valuable skills in Solidity, Truffle, and Metamask, and allowed me to contribute to the advancement of secure voting solutions while exploring the potential of blockchain in enhancing democratic processes.
