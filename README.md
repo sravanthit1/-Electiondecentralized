@@ -1,48 +1,59 @@
+# 🗳️ Election - DAPP Tutorial
 
-# Election - DAPP Tutorial
-Build your first decentralized application, or Dapp, on the Ethereum Network with this tutorial!
+Build your first decentralized application (Dapp) on the Ethereum blockchain with this detailed tutorial!
 
-Full Free Video Tutorial:**
-https://youtu.be/3681ZYbDSSk
+**Video Tutorial:** [Watch Here](https://youtu.be/3681ZYbDSSk)  
+**2019 Updated Code:** [GitHub Repository](https://github.com/dappuniversity/election/tree/2019_update)
 
-## 2019 Updated Code
-https://github.com/dappuniversity/election/tree/2019_update
+## 📋 Prerequisites
 
-Follow the steps below to download, install, and run this project.
+To follow this tutorial, ensure you have the following tools installed:
 
-## Dependencies
-Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
-- NPM: https://nodejs.org
-- Truffle: https://github.com/trufflesuite/truffle
-- Ganache: http://truffleframework.com/ganache/
-- Metamask: https://metamask.io/
+- **NPM**: [Node.js & NPM](https://nodejs.org) for managing JavaScript packages.
+- **Truffle**: [Truffle Suite](https://github.com/trufflesuite/truffle) for Ethereum smart contract development.
+- **Ganache**: [Ganache GUI](http://truffleframework.com/ganache/) for a personal Ethereum blockchain to deploy contracts.
+- **Metamask**: [Metamask Extension](https://metamask.io/) for managing Ethereum wallets and interacting with the blockchain.
 
+## 🚀 Setup and Execution
 
-## Step 1. Clone the project
-`git clone https://github.com/dappuniversity/election`
+1. **Clone the Project**
 
-## Step 2. Install dependencies
-```
-$ cd election
-$ npm install
-```
-## Step 3. Start Ganache
-Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance. See free video tutorial for full explanation.
+    ```bash
+    git clone https://github.com/dappuniversity/election
+    ```
 
+2. **Install Dependencies**
 
-## Step 4. Compile & Deploy Election Smart Contract
-`$ truffle migrate --reset`
-You must migrate the election smart contract each time your restart ganache.
+    ```bash
+    cd election
+    npm install
+    ```
 
-## Step 5. Configure Metamask
-See free video tutorial for full explanation of these steps:
-- Unlock Metamask
-- Connect metamask to your local Etherum blockchain provided by Ganache.
-- Import an account provided by ganache.
+3. **Start Ganache**
 
-## Step 6. Run the Front End Application
-`$ npm run dev`
-Visit this URL in your browser: http://localhost:3000
+    - Launch the Ganache GUI client to create a local Ethereum blockchain.
 
-If you get stuck, please reference the free video tutorial.
+4. **Compile & Deploy the Election Smart Contract**
+
+    ```bash
+    truffle migrate --reset
+    ```
+    - Migrate the smart contract each time you restart Ganache to deploy it on the local blockchain.
+
+5. **Configure Metamask**
+
+    - **Unlock Metamask** and connect it to your local Ethereum blockchain provided by Ganache.
+    - **Import** an account from Ganache into Metamask to interact with your contracts.
+
+6. **Run the Front-End Application**
+
+    ```bash
+    npm run dev
+    ```
+    - Open [http://localhost:3000](http://localhost:3000) in your browser to interact with the Dapp.
+
+## 💡 Troubleshooting
+
+If you face any issues, refer to the video tutorial for step-by-step guidance.
+
 
